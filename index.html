@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>BidPulse — Real-Time Bidding. Instant Results.</title>
+    <meta name="description" content="BidPulse — Real-Time Bidding. Instant Results. High-throughput marketplace featuring PostgreSQL serializable concurrency, outbox Redis pub/sub, and sub-millisecond bidding." />
+    <meta property="og:title" content="BidPulse — Real-Time Bidding. Instant Results." />
+    <meta property="og:description" content="BidPulse — Real-Time Bidding. Instant Results. High-throughput marketplace featuring PostgreSQL serializable concurrency, outbox Redis pub/sub, and sub-millisecond bidding." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('bidpulse_theme') || localStorage.getItem('theme');
+          var isDark = saved === 'dark' || (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-white text-slate-900 antialiased selection:bg-sky-100 selection:text-sky-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

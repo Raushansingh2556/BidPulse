@@ -1,0 +1,8 @@
+{
+  "name": "Remix Real-Time Auction Platform",
+  "description": "High-throughput real-time transactional auction platform featuring strict serializable concurrency, wallet ledger, and stress testing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

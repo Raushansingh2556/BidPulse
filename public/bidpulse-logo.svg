@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none" width="100%" height="100%">
+  <!-- BidPulse Official Logo Asset -->
+  <!-- Modern Geometric Pulse & Gavel Emblem -->
+  <g transform="translate(4, 4)">
+    <rect x="0" y="0" width="56" height="56" rx="14" fill="#0f172a" />
+    <!-- Dynamic Pulse Wave & Gavel in Light Blue -->
+    <path d="M12 28 H20 L24 16 L32 40 L36 24 L40 28 H44" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Pulse Node Accent -->
+    <circle cx="24" cy="16" r="3" fill="#ffffff" />
+    <circle cx="32" cy="40" r="3" fill="#38bdf8" />
+    <!-- Subtle Gavel Head Accent on top -->
+    <rect x="25" y="10" width="14" height="6" rx="2" fill="#38bdf8" transform="rotate(-25 25 10)" />
+  </g>
+
+  <!-- Typography -->
+  <text x="72" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="30" font-weight="900" letter-spacing="-0.04em">
+    <tspan fill="#0f172a">Bid</tspan><tspan fill="#0284c7">Pulse</tspan>
+  </text>
+  
+  <!-- Subtle Tagline in dark charcoal / slate -->
+  <text x="73" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="9" font-weight="600" letter-spacing="0.08em" fill="#64748b" text-transform="uppercase">
+    Real-Time Bidding. Instant Results.
+  </text>
+</svg>
